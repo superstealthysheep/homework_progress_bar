@@ -5,9 +5,6 @@
 #calculate percentage done
 #display progress bar with percentage and expected time
 
-#IMPORTANT: REQUIRES readchar. Install via "pip install readchar"
-
-import readchar
 import sys
 import time
 
@@ -253,7 +250,6 @@ def run():
         #sys.stdout.write(" " * (len(next_output) + 5))
         #sends out next output
         sys.stdout.write(next_output)
-        #new_input = readchar.readchar()
         
         if new_input == "+":
             problems_done = problems_done + 1
