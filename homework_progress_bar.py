@@ -107,5 +107,7 @@ def run():
         elif new_input == "q":
             print("\nGoodbye.")
             exit()
-              
+    print("\n You finished! Goodbye.")
+    exit()
+          
 run()    
